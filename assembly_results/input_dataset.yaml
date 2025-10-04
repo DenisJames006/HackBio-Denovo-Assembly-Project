@@ -1,0 +1,7 @@
+- "left reads":
+  - "/home/dennisjames/hackbio_denovo_project1/trim_results/SRR13554759_1.trim.fastq.gz"
+  "number": !!int "1"
+  "orientation": "fr"
+  "right reads":
+  - "/home/dennisjames/hackbio_denovo_project1/trim_results/SRR13554759_2.trim.fastq.gz"
+  "type": "paired-end"

@@ -1,0 +1,33 @@
+Command line: /home/dennisjames/miniconda3/envs/bioenv/bin/spades.py	-1	/home/dennisjames/hackbio_denovo_project1/trim_results/SRR13554759_1.trim.fastq.gz	-2	/home/dennisjames/hackbio_denovo_project1/trim_results/SRR13554759_2.trim.fastq.gz	-o	/home/dennisjames/hackbio_denovo_project1/assembly_results	--isolate	
+
+System information:
+  SPAdes version: 4.2.0
+  Python version: 3.10.18
+  OS: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+
+Output dir: /home/dennisjames/hackbio_denovo_project1/assembly_results
+Mode: ONLY assembling (without read error correction)
+Debug mode is turned OFF
+
+Dataset parameters:
+  Isolate mode
+  Reads:
+    Library number: 1, library type: paired-end
+      orientation: fr
+      left reads: ['/home/dennisjames/hackbio_denovo_project1/trim_results/SRR13554759_1.trim.fastq.gz']
+      right reads: ['/home/dennisjames/hackbio_denovo_project1/trim_results/SRR13554759_2.trim.fastq.gz']
+      interlaced reads: not specified
+      single reads: not specified
+      merged reads: not specified
+Assembly parameters:
+  k: automatic selection based on read length
+  Repeat resolution is enabled
+  Mismatch careful mode is turned OFF
+  MismatchCorrector will be SKIPPED
+  Coverage cutoff is turned OFF
+  Assembly graph output will use GFA v1.2 format
+Other parameters:
+  Dir for temp files: /home/dennisjames/hackbio_denovo_project1/assembly_results/tmp
+  Threads: 16
+  Memory limit (in Gb): 3
+
